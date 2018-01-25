@@ -1,0 +1,40 @@
+{"housing":{
+"parking / storage":"prk",
+"vacation rentals":"vac",
+"apartments":"apa",
+"real estate - by broker":"reb",
+"real estate - by owner":"reo",
+"rooms & shares":"roo",
+"sublets & temporary":"sub",
+"offices":"off"
+},
+"for_sale":{
+"free stuff":"zip",
+"appliances":"ppa",
+"baby & kid stuff": "baa",
+"books & magazines":"bka",
+"business (for sale)":"bfa",
+"cars & trucks":"cta",
+"cell phones":"moa",
+"clothes & accessories":"cla",
+"electronics":"ela",
+"furniture":"fua",
+"garage sale":"gms",
+"general":"foa",
+"household":"hsa",
+"jewelry":"jwa",
+"tools":"tla",
+"toys+games":"taa"
+},
+"community":{
+  "all":"ccc"
+},
+"jobs": {
+  "all":"jjj"
+},
+"services":{
+  "all":"bbb"
+},
+"gigs":{
+  "all":"ggg"
+}}
