@@ -1,0 +1,12 @@
+setup.py
+cl_housing/__init__.py
+cl_housing/items.py
+cl_housing/pipelines.py
+cl_housing/settings.py
+cl_housing/spiders/__init__.py
+cl_housing/spiders/clspider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
