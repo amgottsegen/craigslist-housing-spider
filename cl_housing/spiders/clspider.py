@@ -3,14 +3,6 @@ import scrapy, json, sys, codecs, datetime, os
 
 CITY = "philadelphia"
 
-def open_json(filename):
-    try:
-        data = open(filename).read()
-        self.log('Opened JSON')
-        return json.loads(data)
-    except:
-        raise Exception("Error reading craigslist sections JSON: {}".format(sys.exc_info()))
-
 def generateURLs():
     urls = []
     sections = json.loads(open('sections.json').read())
