@@ -13,8 +13,8 @@ def open_json(filename):
 
 def generateURLs():
     urls = []
-    sections = open_json('sections.json')
-    zipcodes = open_json('zips.json')['zipcodes']
+    sections = json.loads(open('sections.json').read())
+    zipcodes = json.loads(open('zips.json').read())['zipcodes']
     for section in sections:
         for subsection in sections[section].values():
             for zipcode in zipcodes:
